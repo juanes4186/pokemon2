@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="252dp"
+        android:layout_height="231dp"
+        android:layout_gravity="center"
+        android:clickable="true"
+        card_view:cardBackgroundColor="@color/fondo"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="7dp"
+        card_view:cardUseCompatPadding="true"><![CDATA[
+        >
+
+        ]]>
+
+        <ImageView
+            android:id="@+id/fotoImageView"
+            android:layout_width="174dp"
+            android:layout_height="141dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="40dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false" />
+
+        <TextView
+            android:id="@+id/nombreTextView"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/fondotarjeta"
+            android:gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="180dp"
+            android:background="@color/fondotarjeta"
+            android:gravity="center_horizontal"
+            android:text="Haz Clic En La Imagen"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_dark" />
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
